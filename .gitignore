@@ -22,3 +22,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+# Node
+node_modules/
+
+# .NET
+bin/
+obj/
+.vs/
+appsettings.Development.json
