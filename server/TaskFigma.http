@@ -1,0 +1,6 @@
+@TaskFigma_HostAddress = http://localhost:5281
+
+GET {{TaskFigma_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
