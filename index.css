@@ -1,0 +1,231 @@
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e3e7f0;
+  cursor: pointer;
+}
+
+.custom-table-header .ant-table-thead > tr > th {
+  background-color: #e3e7f0;
+  font-weight: 400;
+}
+
+.ant-table-cell {
+  color: #464155;
+  font-weight: 400;
+}
+
+.custom-status-select .ant-select-selection-item {
+  color: #834666;
+  font-weight: 500;
+  border-color: #e3e7f0;
+}
+
+.ant-upload-list-item-name {
+  color: #01b075;
+}
+
+.title-header {
+  margin: 0;
+  height: 100%;
+}
+
+.title-span {
+  margin: 0;
+  margin-left: 20px;
+  padding: 10px 0;
+  height: 100%;
+  border-bottom: 2px solid #00b96b;
+}
+
+.button-drawer {
+  color: #79435f;
+  border: none;
+}
+
+.first-coloumn-big-drawer {
+  border-right: 1px solid #0000000f;
+  margin-bottom: 40px;
+}
+
+.big-drawer-form {
+  padding: 20px;
+  margin-right: 20px;
+  border-top: 1px solid #0000000f;
+}
+
+.second-drawer-row-style {
+  padding: 8px 4px;
+  border: 1px solid #0000000f;
+}
+
+.activity-log {
+  margin-top: 20px;
+  max-height: 55vh;
+  overflow-y: auto;
+}
+
+.edit-button {
+  height: 12px;
+  width: 12px;
+  padding: 4px;
+  background-color: #f1f0f3;
+  border-radius: 20%;
+  cursor: pointer;
+}
+
+.activity {
+  font-size: 14px;
+  background-color: #f4f5fa;
+  padding: 2px 12px;
+  border-radius: 4px;
+  color: #464155;
+  margin-left: -22px;
+}
+
+.update-and-delete {
+  width: 86px;
+  height: 26px;
+  cursor: pointer;
+  color: #464155;
+}
+
+.editing-button {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+
+.comment-timeline {
+  padding: 20px 20px 20px 30px;
+  max-height: 50vh;
+  min-width: 27vw;
+  overflow-y: scroll;
+}
+
+.activity-timeline {
+  padding: 15px 15px 15px 30px;
+  margin-top: 15px;
+  max-height: 70vh;
+  min-width: 40vh;
+  overflow-y: scroll;
+}
+
+.commentor-col {
+  font-weight: 500;
+}
+
+.commentor {
+  color: #834666;
+}
+
+.comment-description {
+  color: #706169;
+}
+
+.changed-Logo {
+  margin: 0 5px;
+}
+
+.task-activity-font {
+  color: #464155;
+}
+
+.time {
+  color: #00000073;
+  font-size: 11px;
+}
+
+.popover-button {
+  width: 70px;
+}
+
+.modal-attachment {
+  width: 100%;
+  max-height: 70vh;
+  object-fit: contain;
+}
+
+.ant-layout-sider .sider-div {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.dashboard-icon {
+  color: #fff;
+  font-size: 18px;
+  margin: 2px 2px 4px 2px;
+}
+
+.chart {
+  width: 40vw;
+  height: 40vh;
+}
+
+.custom-sider .ant-menu-item {
+  margin-bottom: 16px;
+  margin-top: 16px;
+  /* padding: 5px; */
+}
+
+.layout {
+  background-color: #fff;
+  margin-left: 10px;
+}
+
+.table-head-button {
+  background-color: #00b96b;
+  color: #fff;
+  margin: 10px;
+}
+
+.pending-task-col {
+  width: 240px;
+  color: rgb(121, 67, 95);
+}
+
+.ant-card-body {
+  padding: 10px !important;
+}
+
+@media (max-width: 600px) {
+  .first-coloumn-big-drawer {
+    border-right: none;
+  }
+
+  .big-drawer-form {
+    border-bottom: 1px solid #0000000f;
+  }
+
+  .title-header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #fff;
+    padding: 10px 0;
+  }
+
+  .first-coloumn-big-drawer,
+  .second-drawer {
+    padding-top: 10px;
+  }
+
+  .chart {
+    width: 70vw;
+    height: 40vh;
+  }
+
+  .pending-task-col {
+    width: 240px;
+    /* margin-top: 20px; */
+  }
+}
