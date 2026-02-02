@@ -1,178 +1,63 @@
-\# Full Stack Web Application
+🌐 Full Stack Web Application
+This repository contains a full-stack web application organized in a clean monorepo structure. The frontend and backend are separated into dedicated folders, ensuring scalability, maintainability, and clear client–server boundaries.
 
-
-
-This repository contains a \*\*full-stack web application\*\* with a clean monorepo structure.  
-
-The frontend and backend are maintained in separate folders for better scalability and maintainability.
-
-
-
----
-
-
-
-\## 📁 Project Structure
-
-
-
+📁 Project Structure
 root/
-
-├── client/ # Frontend (React + Vite)
-
-├── server/ # Backend (ASP.NET Core Web API + MongoDB)
-
+├── client/   # Frontend (React + Vite)
+├── server/   # Backend (ASP.NET Core Web API + MongoDB)
 ├── .gitignore
-
 └── README.md
 
 
+🚀 Tech Stack
+Frontend
+- React
+- Vite
+- TypeScript
+- HTML5 / CSS3
 
+Backend
+- ASP.NET Core Web API (C#)
+- MongoDB
+- RESTful APIs
 
-
-\## 🚀 Tech Stack
-
-
-
-\### Frontend
-
-\- React
-
-\- Vite
-
-\- TypeScript
-
-\- HTML5 / CSS3
-
-
-
-\### Backend
-
-\- ASP.NET Core Web API (C#)
-
-\- MongoDB
-
-\- RESTful APIs
-
-
-
-
-
-\## ⚙️ Setup Instructions
-
-
-
-\### 1️⃣ Frontend Setup
-
-
-
+⚙️ Setup Instructions
+1️⃣ Frontend Setup
 cd client
-
 npm install
-
 npm run dev
 
-The frontend will run on:
 
-
-
-arduino
-
+Frontend runs at:
 http://localhost:5173
 
-
-
 2️⃣ Backend Setup
-
-Make sure:
-
-
-
-.NET SDK is installed
-
-
-
-MongoDB is running locally or accessible via a connection string
-
-
-
+Ensure you have:
+- .NET SDK installed
+- MongoDB running locally or accessible via connection string
 cd server/Backend
-
 dotnet restore
-
 dotnet run
 
-The backend will run on:
-
-
-
-Arduino: 
-
+Backend runs at:
 https://localhost:5281
-
-
-
-Swagger UI:
-
+Swagger UI available at:
 https://localhost:5281/swagger
 
-
-
-
-
 🔐 Environment Configuration
-
-MongoDB settings are defined in:
-
-
-
-appsettings.json
-
-
-
-
-
-Example:
-
-
-
+MongoDB settings are defined in appsettings.json:
 "MongoDbSettings": {
-
-&nbsp; "ConnectionString": "mongodb://localhost:27017",
-
-&nbsp; "DatabaseName": "MyAppDb"
-
+  "ConnectionString": "mongodb://localhost:27017",
+  "DatabaseName": "MyAppDb"
 }
 
-
-
-
-
 🧠 Key Highlights
-
-Clean client–server separation
-
-
-
-RESTful API architecture
-
-
-
-MongoDB integration using the official .NET driver
-
-
-
-Scalable folder structure
-
-
-
-Git best practices followed (bin/, obj/, node\_modules ignored)
-
-
+- Clean client–server separation
+- RESTful API architecture
+- MongoDB integration using official .NET driver
+- Scalable folder structure for growth
+- Git best practices (ignoring bin/, obj/, node_modules)
 
 📌 Author
-
 Lakshya Pandey
-
 Aspiring Full Stack Developer
-
